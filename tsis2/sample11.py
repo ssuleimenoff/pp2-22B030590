@@ -1,0 +1,1 @@
+print("Yes") if i % 3 == 0 print("No")
