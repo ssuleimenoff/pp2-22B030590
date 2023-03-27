@@ -151,7 +151,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.main (2)">
+  <component name="RunManager" selected="Python.mickey_clock">
     <configuration name="clock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tsis7" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,9 +264,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mickey_clock" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.mickey_clock" />
         <item itemvalue="Python.clock" />
       </list>
     </recent_temporary>
@@ -284,6 +284,8 @@
       <workItem from="1679160121951" duration="4183000" />
       <workItem from="1679845098554" duration="660000" />
       <workItem from="1679869507047" duration="11591000" />
+      <workItem from="1679931328696" duration="218000" />
+      <workItem from="1679931588814" duration="87000" />
     </task>
     <servers />
   </component>
@@ -291,8 +293,9 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tsis7$mickey_clock.coverage" NAME="mickey_clock Coverage Results" MODIFIED="1679892128264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clock" />
-    <SUITE FILE_PATH="coverage/tsis7$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1679930136121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/red_ball" />
+    <SUITE FILE_PATH="coverage/tsis7$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1679931340137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/red_ball" />
+    <SUITE FILE_PATH="coverage/tsis7$mickey_clock.coverage" NAME="mickey_clock Coverage Results" MODIFIED="1679931670426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clock" />
+    <SUITE FILE_PATH="coverage/tsis7$main.coverage" NAME="main Coverage Results" MODIFIED="1679931538377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tsis7$pygame.coverage" NAME="pygame Coverage Results" MODIFIED="1678810983216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tsis7$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1679929314222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/music_player" />
   </component>

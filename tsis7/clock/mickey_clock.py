@@ -1,12 +1,11 @@
-import pygame
-import sys
+import pygame, sys
 from datetime import datetime
 
 
 def main():
     # pygame initialization
     pygame.init()
-    monitor = pygame.display.set_mode((800, 600))
+    screen = pygame.display.set_mode((800, 600))
     clock = pygame.time.Clock()
 
     # get the current time
@@ -30,18 +29,18 @@ def main():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 sys.quit()
-        monitor.fill(0)
-        monitor.blit(clock_image, (0, 0))
+        screen.fill(0)
+        screen.blit(clock_image, (0, 0))
 
         rot_minhand = pygame.transform.rotate(minhand_image, -1 * (6 * curr_min) - 160)
         rot_minhand_rect = rot_minhand.get_rect()
         rot_minhand_rect.center = minhand_rect.center
-        monitor.blit(rot_minhand, rot_minhand_rect)
+        screen.blit(rot_minhand, rot_minhand_rect)
 
         rot_sechand = pygame.transform.rotate(sechand_image, -1 * (6 * curr_sec) + 90)
         rot_sechand_rect = rot_sechand.get_rect()
         rot_sechand_rect.center = sechand_rect.center
-        monitor.blit(rot_sechand, rot_sechand_rect)
+        screen.blit(rot_sechand, rot_sechand_rect)
 
         curr_time = datetime.now()
         curr_sec = curr_time.second
